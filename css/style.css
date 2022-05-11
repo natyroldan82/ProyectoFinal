@@ -118,12 +118,7 @@ body{
           padding: 3 rem;
         }
 
-
-    
-
-   
-
- .cpi img:hover{
+.cpi img:hover{
             
              transform: scale(2);
          }
@@ -140,3 +135,9 @@ body{
  .card-title {
      color:#6c757d;
  }
+ 
+ 
+ .carousel-item img{
+     max-height: 500px;
+ }
+ 
