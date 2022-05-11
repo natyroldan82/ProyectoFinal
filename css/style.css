@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+*, *:before, *:after {
+    box-sizing: inherit;}
+
+    html
+    {
+        
+        font-family: 'Krub', sans-serif;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+
+.card-title 
+{
+    text-align: center;
+    margin: 2rem;
+    font-family: bold;
+    font-size: 30px;
+}   
+
+.card{
+    margin: 2rem;
+}
+.navbar-nav{
+    font-family:'Krub', sans-serif;
+    font-size: 25px;
+}
+
+
+
+.container-fluid .col-md-4 h2{
+    font-family:'Krub', sans-serif;
+}
+
+
+.carousel-item img{
+    max-height: 200px;
+}
+.main{
+    width: auto;
+    height: 350%;
+    background-color: rgb(99, 99, 90);
+    color:white;
+    text-align: center;
+    
+
+}
+.servicios h2{
+    font-family:Arial, Helvetica, sans-serif;
+    
+    color: #6c757d;
+    text-align: center;
+    padding-top: 2rem;
+}
+.main{
+    background: rgb(105,111,107);
+    background: radial-gradient(circle, rgba(105,111,107,1) 19%, rgba(185,191,191,1) 38%, rgba(224,217,206,1) 57%, rgba(168,165,149,1) 84%);}
+
+.main span{
+    color:#6eb96b;}
+  
+
+/*formulario de contacto*/
+
+
+.formulario{
+    background-color: rgb(146, 146, 156);
+    width: 600px;
+    height: 456px;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.formulario fieldset{
+    border: none;       
+}
+  
+.contenedor-formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+   
+}
+.formulario legend{
+    text-align: center;
+   font-size: 1.8 rem;
+   text-transform: uppercase;
+   font-weight: 700;
+   margin-bottom:  2rem;
+}
+
+.campo{
+ margin-bottom:  1rem;
+
+
+}
+.campo label{
+    color: white;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+
+body{
+    font-size: 20px;
+
+}
+.sombra {
+         -webkit-box-shadow: 0px 5px 15px 0px rgba(138,124,138,0.39);
+         -moz-box-shadow: 0px 5px 15px 0px rgba(138,124,138,0.39);
+          box-shadow: 0px 5px 15px 0px rgba(138,124,138,0.39);
+          padding: 3 rem;
+        }
+
+
+    
+
+   
+
+ .cpi img:hover{
+            
+             transform: scale(2);
+         }
+  .cpi img{
+           
+            transition: all, 2s;}
+            
+ .col-md-3 img:hover{
+    transform: scale(2);  
+ }
+ .col-md-3 img{
+    transition: all, 2s;
+ }
+ .card-title {
+     color:#6c757d;
+ }
