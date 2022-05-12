@@ -1,0 +1,11 @@
+/*nesting o anidamiento*/
+//generales
+
+@import "./general/reset";
+@import "general/variables";
+@import "./general/estilosGenerales";
+@import "./sections/main";
+@import "./general/listas";
+
+/*header*/
+@import './sections/header';
