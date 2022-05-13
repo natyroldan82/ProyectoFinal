@@ -31,9 +31,12 @@ html {
   margin: 2rem;
 }
 
-.servicios h2 {
-  font-family: "Krub", sans-serif;
-  color: rgb(99, 99, 90);
+h5 {
+  color: grey;
+}
+
+.main span {
+  color: #6eb96b;
 }
 
 /*listas
